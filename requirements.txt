@@ -1,0 +1,14 @@
+# Core dependencies
+flask>=3.0.0
+werkzeug>=3.0.0
+pefile>=2023.2.7
+requests>=2.31.0
+
+# Optional: enable YARA scanning
+# yara-python>=4.3.0
+
+# Optional: enable ssdeep fuzzy hashing
+# python-ssdeep>=3.4
+
+# Optional: load .env files
+# python-dotenv>=1.0.0

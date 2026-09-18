@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080b12"/>
+      <stop offset="50%" stop-color="#0d1220"/>
+      <stop offset="100%" stop-color="#111829"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7c6af7"/>
+      <stop offset="100%" stop-color="#5b8af7"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#7c6af7" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#7c6af7" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="320" fill="url(#bg)"/>
+  <rect width="1200" height="320" fill="url(#glow)"/>
+
+  <!-- Grid dots background -->
+  <g fill="#5b8af7" opacity="0.08">
+    <circle cx="80" cy="60" r="2"/><circle cx="200" cy="60" r="2"/><circle cx="320" cy="60" r="2"/>
+    <circle cx="80" cy="140" r="2"/><circle cx="200" cy="140" r="2"/><circle cx="320" cy="140" r="2"/>
+    <circle cx="80" cy="260" r="2"/><circle cx="200" cy="260" r="2"/><circle cx="320" cy="260" r="2"/>
+  </g>
+
+  <!-- Shield logo -->
+  <g transform="translate(90,70)">
+    <path d="M70 4 L128 26 V78 C128 112 103 130 70 136 C37 130 12 112 12 78 V26 Z"
+      fill="none" stroke="#7c6af7" stroke-width="3"
+      filter="drop-shadow(0 0 14px rgba(124,106,247,0.5))"/>
+    <path d="M70 12 L120 31 V78 C120 106 99 121 70 127 C41 121 20 106 20 78 V31 Z"
+      fill="rgba(124,106,247,0.10)"/>
+    <circle cx="70" cy="72" r="30" fill="none" stroke="#5b8af7" stroke-width="2.5" opacity="0.9"/>
+    <circle cx="70" cy="72" r="17" fill="none" stroke="#5b8af7" stroke-width="2" opacity="0.6"/>
+    <!-- A -->
+    <path d="M44 88 L60 56 L70 66 L70 56" fill="none" stroke="#7c6af7" stroke-width="4" stroke-linecap="round"/>
+    <path d="M44 88 L70 56 L96 88" fill="none" stroke="#9f6af7" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="70" cy="72" r="5" fill="#7c6af7" opacity="0.95" filter="drop-shadow(0 0 6px rgba(124,106,247,0.8))"/>
+  </g>
+
+  <!-- Title -->
+  <text x="230" y="150" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="64" font-weight="700"
+    fill="#e8ecf5" letter-spacing="6">ARES</text>
+
+  <!-- Subtitle -->
+  <text x="234" y="195" font-family="'Inter', 'Segoe UI', sans-serif" font-size="22"
+    fill="url(#accent)" letter-spacing="4">ANTI-MALWARE TRIAGE WORKSTATION</text>
+
+  <!-- Tagline -->
+  <text x="234" y="238" font-family="'Inter', 'Segoe UI', sans-serif" font-size="15"
+    fill="#9ba5bf" letter-spacing="1">Static malware analysis for analysts & SOC teams · 100% local & private</text>
+
+  <!-- Scan line decoration -->
+  <line x1="234" y1="255" x2="1070" y2="255" stroke="#7c6af7" stroke-width="1" opacity="0.3"/>
+</svg>
