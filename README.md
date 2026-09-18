@@ -230,13 +230,13 @@ This project is provided for authorized defensive security research and analysis
 
 ---
 
-<p align="center">
-  <strong>ARES — Analyze. Detect. Understand.</strong>
-</p>
-
----
 ## 📞 Contact
 
 - Discord: <a href="https://discordapp.com/users/970282290905231390">@lumelisse</a>
 - Discord: <a href="https://discordapp.com/users/219449504229752832">@Pokerface</a>
 - Discord: <a href="https://discord.gg/MsxgXWA9Mt">@Server</a>
+
+<p align="center">
+  <strong>ARES — Analyze. Detect. Understand.</strong>
+</p>
+
